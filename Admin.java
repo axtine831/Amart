@@ -319,7 +319,7 @@ public void insertRegisteredUsers(HttpServletRequest request, HttpServletRespons
 	 	 //creating connection with the database 
 	         Connection connect=DriverManager.getConnection
 	                        ("jdbc:mysql://localhost:3306/amart","cmsuser","cmspass");
-	        String firstName=request.getParameter("firstName");
+	        	String firstName=request.getParameter("firstName");
 			String lastName=request.getParameter("lastName");
 			String email=request.getParameter("email");
 			String password=request.getParameter("password");
